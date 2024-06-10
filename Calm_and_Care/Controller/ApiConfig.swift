@@ -6,3 +6,6 @@
 //
 
 import Foundation
+struct APIConfig {
+    static let baseURL = "https://b311-207-249-176-126.ngrok-free.app/Api_Rest_HelpDesk/api/"
+}
