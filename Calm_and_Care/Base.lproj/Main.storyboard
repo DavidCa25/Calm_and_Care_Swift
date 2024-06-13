@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,14 +13,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Calm_and_Care" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Inicio" translatesAutoresizingMaskIntoConstraints="NO" id="bqY-KT-GW3">
-                                <rect key="frame" x="-87" y="-80" width="601" height="1050"/>
+                                <rect key="frame" x="-87" y="-108" width="507" height="784"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="wEu-IV-MM0">
-                                <rect key="frame" x="7" y="86" width="400" height="462"/>
+                                <rect key="frame" x="7" y="58" width="306" height="196"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18C-0X-quI">
                                 <rect key="frame" x="104" y="290" width="125" height="35"/>
@@ -74,17 +74,17 @@
             <objects>
                 <viewController id="jeZ-RB-qf6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vcJ-oB-EMt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reservaciones" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4GH-2m-vJB">
-                                <rect key="frame" x="88" y="48" width="238" height="27"/>
+                                <rect key="frame" x="88" y="20" width="144" height="27"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EfD-ju-O70">
-                                <rect key="frame" x="16" y="48" width="40" height="30"/>
+                                <rect key="frame" x="16" y="20" width="40" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonRegresar"/>
                             </button>
@@ -92,7 +92,7 @@
                                 <rect key="frame" x="0.0" y="111" width="320" height="77"/>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hgo-l3-evA">
-                                <rect key="frame" x="88" y="754" width="238" height="30"/>
+                                <rect key="frame" x="88" y="460" width="144" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="oJG-qH-Egb"/>
                                 </constraints>
@@ -131,7 +131,7 @@
             <objects>
                 <viewController storyboardIdentifier="loginView" id="ipB-sn-wzI" customClass="loginController" customModule="Calm_and_Care" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YBo-ZZ-yWL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ivh-ym-oPq">
@@ -178,7 +178,7 @@
             <objects>
                 <viewController storyboardIdentifier="signUpView" id="qG1-j3-Abg" customClass="signUpController" customModule="Calm_and_Care" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z1K-gD-BKg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="usuario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aO7-sj-mrd">
@@ -232,11 +232,11 @@
             <objects>
                 <viewController id="psh-M6-BvD" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d4s-Z8-9xK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notas" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mKJ-dd-a8V">
-                                <rect key="frame" x="0.0" y="-6" width="414" height="920"/>
+                                <rect key="frame" x="0.0" y="-40" width="320" height="660"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7b-IZ-y2f">
                                 <rect key="frame" x="16" y="-6" width="42" height="75"/>
@@ -433,11 +433,11 @@
             <objects>
                 <viewController id="WCM-CI-VUr" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ooi-UG-KMe">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emociones" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kud-tO-oZJ">
-                                <rect key="frame" x="0.0" y="69" width="414" height="827"/>
+                                <rect key="frame" x="0.0" y="41" width="430" height="561"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="430" id="9zH-IA-mCl"/>
                                 </constraints>
@@ -483,7 +483,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Como te Sientes el Dia de Hoy?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yMQ-hT-NUA">
-                                <rect key="frame" x="18" y="108" width="397.5" height="23"/>
+                                <rect key="frame" x="18" y="80" width="307.5" height="23"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -569,7 +569,7 @@
                                 <buttonConfiguration key="configuration" style="plain" image="feliz"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LfU-jZ-7BG">
-                                <rect key="frame" x="20" y="43" width="40" height="30"/>
+                                <rect key="frame" x="18" y="15" width="40" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="RSF-xL-qte"/>
                                 </constraints>
