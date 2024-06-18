@@ -1,13 +1,13 @@
 //
-//  PerfilController.swift
+//  ReservacionController.swift
 //  Calm_and_Care
 //
-//  Created by ISSC_611_2024 on 12/06/24.
+//  Created by Bryan Montoya on 16/06/24.
 //
 
 import UIKit
 
-class PerfilController: UIViewController {
+class ReservacionController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
