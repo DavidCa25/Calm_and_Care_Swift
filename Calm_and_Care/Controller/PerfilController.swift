@@ -64,6 +64,8 @@ class PerfilController: UIViewController {
             
             task.resume()
         }
+    
+        
         
         private func updateUIWithUserData(_ userData: [String: Any]) {
             if let nombre = userData["nombre"] as? String {

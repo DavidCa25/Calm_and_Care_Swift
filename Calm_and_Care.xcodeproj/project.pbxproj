@@ -22,6 +22,7 @@
 		D24817E92C1FDC0F0038EDEE /* InicioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24817E82C1FDC0F0038EDEE /* InicioController.swift */; };
 		D24817EB2C1FDC1C0038EDEE /* PerfilController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24817EA2C1FDC1C0038EDEE /* PerfilController.swift */; };
 		D24817ED2C1FDC2D0038EDEE /* ReservacionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24817EC2C1FDC2D0038EDEE /* ReservacionController.swift */; };
+		D24817EF2C228C680038EDEE /* ServiciosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24817EE2C228C680038EDEE /* ServiciosController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		D24817E82C1FDC0F0038EDEE /* InicioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioController.swift; sourceTree = "<group>"; };
 		D24817EA2C1FDC1C0038EDEE /* PerfilController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilController.swift; sourceTree = "<group>"; };
 		D24817EC2C1FDC2D0038EDEE /* ReservacionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservacionController.swift; sourceTree = "<group>"; };
+		D24817EE2C228C680038EDEE /* ServiciosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiciosController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				D24817E82C1FDC0F0038EDEE /* InicioController.swift */,
 				D24817EA2C1FDC1C0038EDEE /* PerfilController.swift */,
 				D24817EC2C1FDC2D0038EDEE /* ReservacionController.swift */,
+				D24817EE2C228C680038EDEE /* ServiciosController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				C1BAA0F52C0E8E1C00201E43 /* AppDelegate.swift in Sources */,
 				D24817E52C1FDBAF0038EDEE /* LoginController.swift in Sources */,
 				D24817ED2C1FDC2D0038EDEE /* ReservacionController.swift in Sources */,
+				D24817EF2C228C680038EDEE /* ServiciosController.swift in Sources */,
 				C11C1F2A2C17A6F900D2948C /* APICONFIG.swift in Sources */,
 				C1BAA0F72C0E8E1C00201E43 /* SceneDelegate.swift in Sources */,
 				D24817E72C1FDBFF0038EDEE /* SignUpController.swift in Sources */,

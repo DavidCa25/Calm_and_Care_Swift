@@ -48,7 +48,7 @@ class loginController: UIViewController {
                         do {
                             if let jsonResponse = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any],
                                let userId = jsonResponse["idUsuario"] as? Int {
-                                // Guardar el ID del usuario en UserDefaults
+                                
                                 UserDefaults.standard.set(userId, forKey: "userId")
                                 
                                 print(jsonResponse)
