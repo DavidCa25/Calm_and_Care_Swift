@@ -7,5 +7,5 @@
 
 import Foundation
 struct APIConfig {
-    static let baseURL = "https://b311-207-249-176-126.ngrok-free.app/Api_Rest_HelpDesk/api/"
+    static let baseURL = "https://62d1-187-189-149-181.ngrok-free.app/Calm_Care/api/"
 }

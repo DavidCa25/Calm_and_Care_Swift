@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C11C1F2A2C17A6F900D2948C /* APICONFIG.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11C1F292C17A6F900D2948C /* APICONFIG.swift */; };
-		C11C1F2C2C17AA5D00D2948C /* loginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11C1F2B2C17AA5D00D2948C /* loginController.swift */; };
-		C11C1F2E2C17AAB300D2948C /* signUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11C1F2D2C17AAB300D2948C /* signUpController.swift */; };
 		C1BAA0F52C0E8E1C00201E43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BAA0F42C0E8E1C00201E43 /* AppDelegate.swift */; };
 		C1BAA0F72C0E8E1C00201E43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BAA0F62C0E8E1C00201E43 /* SceneDelegate.swift */; };
 		C1BAA0F92C0E8E1C00201E43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BAA0F82C0E8E1C00201E43 /* ViewController.swift */; };
@@ -19,6 +17,12 @@
 		C1BAA10C2C0E8E1E00201E43 /* Calm_and_CareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BAA10B2C0E8E1E00201E43 /* Calm_and_CareTests.swift */; };
 		C1BAA1162C0E8E1E00201E43 /* Calm_and_CareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BAA1152C0E8E1E00201E43 /* Calm_and_CareUITests.swift */; };
 		C1BAA1182C0E8E1E00201E43 /* Calm_and_CareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BAA1172C0E8E1E00201E43 /* Calm_and_CareUITestsLaunchTests.swift */; };
+		D24817E52C1FDBAF0038EDEE /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24817E42C1FDBAF0038EDEE /* LoginController.swift */; };
+		D24817E72C1FDBFF0038EDEE /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24817E62C1FDBFF0038EDEE /* SignUpController.swift */; };
+		D24817E92C1FDC0F0038EDEE /* InicioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24817E82C1FDC0F0038EDEE /* InicioController.swift */; };
+		D24817EB2C1FDC1C0038EDEE /* PerfilController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24817EA2C1FDC1C0038EDEE /* PerfilController.swift */; };
+		D24817ED2C1FDC2D0038EDEE /* ReservacionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24817EC2C1FDC2D0038EDEE /* ReservacionController.swift */; };
+		D24817EF2C228C680038EDEE /* ServiciosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24817EE2C228C680038EDEE /* ServiciosController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +44,6 @@
 
 /* Begin PBXFileReference section */
 		C11C1F292C17A6F900D2948C /* APICONFIG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICONFIG.swift; sourceTree = "<group>"; };
-		C11C1F2B2C17AA5D00D2948C /* loginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginController.swift; sourceTree = "<group>"; };
-		C11C1F2D2C17AAB300D2948C /* signUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpController.swift; sourceTree = "<group>"; };
 		C1BAA0F12C0E8E1C00201E43 /* Calm_and_Care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calm_and_Care.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BAA0F42C0E8E1C00201E43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1BAA0F62C0E8E1C00201E43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,12 @@
 		C1BAA1112C0E8E1E00201E43 /* Calm_and_CareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calm_and_CareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BAA1152C0E8E1E00201E43 /* Calm_and_CareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calm_and_CareUITests.swift; sourceTree = "<group>"; };
 		C1BAA1172C0E8E1E00201E43 /* Calm_and_CareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calm_and_CareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D24817E42C1FDBAF0038EDEE /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		D24817E62C1FDBFF0038EDEE /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		D24817E82C1FDC0F0038EDEE /* InicioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioController.swift; sourceTree = "<group>"; };
+		D24817EA2C1FDC1C0038EDEE /* PerfilController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilController.swift; sourceTree = "<group>"; };
+		D24817EC2C1FDC2D0038EDEE /* ReservacionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservacionController.swift; sourceTree = "<group>"; };
+		D24817EE2C228C680038EDEE /* ServiciosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiciosController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +94,12 @@
 			isa = PBXGroup;
 			children = (
 				C11C1F292C17A6F900D2948C /* APICONFIG.swift */,
-				C11C1F2B2C17AA5D00D2948C /* loginController.swift */,
-				C11C1F2D2C17AAB300D2948C /* signUpController.swift */,
+				D24817E42C1FDBAF0038EDEE /* LoginController.swift */,
+				D24817E62C1FDBFF0038EDEE /* SignUpController.swift */,
+				D24817E82C1FDC0F0038EDEE /* InicioController.swift */,
+				D24817EA2C1FDC1C0038EDEE /* PerfilController.swift */,
+				D24817EC2C1FDC2D0038EDEE /* ReservacionController.swift */,
+				D24817EE2C228C680038EDEE /* ServiciosController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -283,12 +295,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24817E92C1FDC0F0038EDEE /* InicioController.swift in Sources */,
 				C1BAA0F92C0E8E1C00201E43 /* ViewController.swift in Sources */,
 				C1BAA0F52C0E8E1C00201E43 /* AppDelegate.swift in Sources */,
-				C11C1F2C2C17AA5D00D2948C /* loginController.swift in Sources */,
+				D24817E52C1FDBAF0038EDEE /* LoginController.swift in Sources */,
+				D24817ED2C1FDC2D0038EDEE /* ReservacionController.swift in Sources */,
+				D24817EF2C228C680038EDEE /* ServiciosController.swift in Sources */,
 				C11C1F2A2C17A6F900D2948C /* APICONFIG.swift in Sources */,
 				C1BAA0F72C0E8E1C00201E43 /* SceneDelegate.swift in Sources */,
-				C11C1F2E2C17AAB300D2948C /* signUpController.swift in Sources */,
+				D24817E72C1FDBFF0038EDEE /* SignUpController.swift in Sources */,
+				D24817EB2C1FDC1C0038EDEE /* PerfilController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
